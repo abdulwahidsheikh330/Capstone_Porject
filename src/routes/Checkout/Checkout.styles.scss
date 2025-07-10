@@ -1,0 +1,28 @@
+.CheckOut{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    font-size: 26px;
+    .titles
+    {
+       display: flex;
+       gap: 170px;
+       justify-content: center;
+       border-bottom: 1px solid black;
+       padding-bottom: 20px;
+       width: 1000px;
+       position: absolute;
+       top:0px;
+       left: 50px;
+    }
+    .total-price
+    {
+        position: absolute;
+        bottom: 0px;
+        right: 140px;
+    }
+}

@@ -1,0 +1,47 @@
+.checkout-cards-container
+{
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // gap: 50px;
+    // padding-bottom: 20px;
+    // border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative;
+    border-bottom: 1px solid black;
+    font-size: 26px;
+    width: 1000px;
+    .quantity-toogler
+    {
+        display: flex;
+        font-size: 26px;
+        align-items: center;
+    
+    }
+    .name{
+        font-size: 26px;
+        margin-left: -55%;
+    }
+  .image{
+    width: 200px;
+    height: 250px;
+  }
+  .price
+  {
+    margin-left: 20%;
+  }
+  button{
+    font-size: 36px;
+    border: none;
+    background-color: white;
+}
+.remove{
+  font-size: 22px;
+}
+}
