@@ -1,6 +1,6 @@
 import React from 'react'
 import './Checkout.styles.scss'
-import CheckoutCards from './Checkout-cards/CheckoutCards'
+import CheckoutCards from './CheckoutCards'
 import { useContext } from 'react'
 import { CartContext } from '../../context/cartContext'
 const Checkout = () => {
@@ -11,7 +11,7 @@ const Checkout = () => {
                 <div>Product</div>
                 <div>Description</div>
                 <div>Quantity</div>
-                <div>Price </div>
+                <div>Price </div> 
                 <div>Remove </div>
             </div>
             <div className="">
